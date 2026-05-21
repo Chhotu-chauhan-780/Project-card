@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Card</title>
+
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background-color: #2A7ABD;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card{
+      width: 220px;
+      background-color: #639A1A;
+      border: 2px solid black;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .card img{
+      width: 100%;
+      border: 2px solid gray;
+    }
+
+    h3{
+      margin: 10px 0;
+      font-size: 18px;
+    }
+
+    p{
+      background-color: lightblue;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid black;
+    }
+
+    .btns{
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .price{
+      background-color: cyan;
+      padding: 10px;
+      border: 1px solid black;
+      width: 48%;
+      font-weight: bold;
+    }
+
+    .buy{
+      background-color: #667CAA;
+      padding: 10px;
+      border: 1px solid black;
+      width: 48%;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <img src="/lp.png" alt="Laptop">
+
+    <h3>HP Victus AMD Ryzen 7 Octa Core 5800H - (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050) 15-fb0137AX Gaming Laptop (15.6 Inch, Performance Blue, 2.37 Kg)</h3>
+
+    <p>This is a good Laptop</p>
+
+    <div class="btns">
+      <div class="price">82,870</div>
+      <div class="buy">BUY NOW</div>
+    </div>
+  </div>
+
+</body>
+</html>
